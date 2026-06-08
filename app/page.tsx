@@ -14,9 +14,7 @@ const productos = [
     { imagen: "nike-travis-scott.jpeg", nombre: "Nike Travis Scott", precio: "$65.000", talle: "40" },
     { imagen: "puma-suede-xl.jpeg", nombre: "Puma Suede XL", precio: "$65.000", talle: "41" },
     { imagen: "vans-hylane-cuerina.jpeg", nombre: "Vans Hylane Cuerina", precio: "$30.000", talle: "39" },
-    { imagen: "vans-knu-clasic.jpeg", nombre: "Vans Knu Classic", precio: "$30.000", talle: "41" },
     { imagen: "vans-old-school.jpeg", nombre: "Vans Old School", precio: "$30.000", talle: "39" },
-    { imagen: "vans-sk8-votita.jpeg", nombre: "Vans Sk8", precio: "$45.000", talle: "40" },
 ];
 
 export default function Home() {
