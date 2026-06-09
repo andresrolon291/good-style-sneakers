@@ -10,11 +10,17 @@ const productos = [
     { imagen: "adidas-samba-white.jpeg", nombre: "Adidas Samba White", precio: "$65.000", talle: "41" },
     { imagen: "converse-clasica.jpeg", nombre: "Converse Clásica", precio: "$30.000", talle: "39" },
     { imagen: "jordan-retro-4-bred.jpeg", nombre: "Jordan Retro 4 Bred", precio: "$65.000", talle: "39, 41" },
-    { imagen: "nike-sb-azul.jpeg", nombre: "Nike SB Azul", precio: "$65.000", talle: "39" },
+    { imagen: "nike-sb-azul.jpeg", nombre: "Nike SB Azul", precio: "$70.000", talle: "41" },
     { imagen: "nike-travis-scott.jpeg", nombre: "Nike Travis Scott", precio: "$65.000", talle: "40" },
     { imagen: "puma-suede-xl.jpeg", nombre: "Puma Suede XL", precio: "$65.000", talle: "41" },
     { imagen: "vans-hylane-cuerina.jpeg", nombre: "Vans Hylane Cuerina", precio: "$30.000", talle: "39" },
     { imagen: "vans-old-school.jpeg", nombre: "Vans Old School", precio: "$30.000", talle: "39" },
+    { imagen: "jordan-4-pink.jpeg", nombre: "Jordan 4 Pink", precio: "$70.000", talle: "36" },
+    { imagen: "jordan-4-sb-navy.jpeg", nombre: "Jordan 4 Sb Navy", precio: "$70.000", talle: "43" },
+    { imagen: "jordan-retro-4-total-black.jpeg", nombre: "Jordan R4 Total Black", precio: "$70.000", talle: "42" },
+    { imagen: "puma-la-france.jpeg", nombre: "Puma La France", precio: "$70.000", talle: "41" },
+    { imagen: "straye-blue.jpeg", nombre: "Straye Blue", precio: "$70.000", talle: "40" },
+    { imagen: "vans-sk8-full-black.jpeg", nombre: "Vans Sk8 Total Black", precio: "$70.000", talle: "39" },
 ];
 
 export default function Home() {
