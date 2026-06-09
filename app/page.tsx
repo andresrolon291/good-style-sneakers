@@ -26,15 +26,20 @@ const productos = [
 export default function Home() {
     const [carrito, setCarrito] = useState<any[]>([]);
     return (
-        <main className="p-8">
-            <h1 className="text-4xl font-bold text-center mb-8">
-                Good Style Sneakers
+        <main className="p-8 bg-white min-h-screen">
+            <img
+                src="/snakerslogo.png"
+                alt="Good Style"
+                className="mx-auto w-120 mb-2"
+            />
+            <h1 className="text-4xl font-bold text-center mb-8 text-green-600">
+                GOOD STYLE
             </h1>
             <p className="text-center text-gray-600 mb-8">
                 Zapatillas urbanas • Envíos • Consultas por WhatsApp
             </p>
             <div className="mb-8 border rounded-xl p-4">
-                <h2 className="text-2xl font-bold">
+                <h2 className="text-2xl font-bold text-black">
                     Carrito ({carrito.length})
                 </h2>
                 <button
@@ -44,12 +49,12 @@ export default function Home() {
                     Vaciar carrito
                 </button>
                 {carrito.map((item, index) => (
-                    <p key={index}>
+                    <p key={index} className="text-black">
                         {item.nombre} - {item.precio}
 
                     </p>
                 ))}
-                <p className="font-bold mt-4">
+                <p className="font-bold mt-4 text-black">
                     Total: $
                     {carrito.reduce(
                         (total, item) =>
@@ -84,15 +89,15 @@ export default function Home() {
                             className="w-full rounded-lg"
                         />
 
-                        <h2 className="mt-3 font-semibold">
+                        <h2 className="mt-3 font-semibold text-black">
                             {producto.nombre}
                         </h2>
 
-                        <p className="font-bold">
+                        <p className="font-bold text-black">
                             {producto.precio}
                         </p>
 
-                        <p>
+                        <p className="text-black">
                             Talle: {producto.talle}
                         </p>
                         <a
@@ -104,7 +109,7 @@ export default function Home() {
                         </a>
                         <button
                             onClick={() => setCarrito([...carrito, producto])}
-                            className="w-full mt-2 border rounded-lg p-2"
+                            className="w-full mt-2 bg-green-600 text-white rounded-lg p-2 hover:bg-green-700"
                         >
                             Agregar al carrito
                         </button>
