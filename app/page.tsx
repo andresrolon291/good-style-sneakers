@@ -112,10 +112,6 @@ export default function Home() {
                 )}
             </div>
 
-            <h2 className="text-3xl font-bold text-center text-black mb-8">
-                👟 Catálogo de Zapatillas
-            </h2>
-
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {productos.map((producto) => (
                     <div
