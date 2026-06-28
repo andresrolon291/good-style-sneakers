@@ -3,14 +3,12 @@
 import { useState } from "react";
 
 const productos = [
-    { imagen: "adi-2000-total-back.jpeg", nombre: "Adi 2000 Total Black", precio: "$65.000", talle: "41" },
     { imagen: "adidas-forum-blanca-gris.jpeg", nombre: "Adidas Forum Blanca Gris", precio: "$65.000", talle: "40" },
     { imagen: "adidas-forum-total-black.jpeg", nombre: "Adidas Forum Total Black", precio: "$65.000", talle: "38" },
     { imagen: "adidas-samba-clasic.jpeg", nombre: "Adidas Samba Classic", precio: "$65.000", talle: "40" },
     { imagen: "adidas-samba-white.jpeg", nombre: "Adidas Samba White", precio: "$65.000", talle: "41" },
     { imagen: "converse-clasica.jpeg", nombre: "Converse Clásica", precio: "$30.000", talle: "39" },
     { imagen: "jordan-retro-4-bred.jpeg", nombre: "Jordan Retro 4 Bred", precio: "$65.000", talle: "39, 41" },
-    { imagen: "nike-sb-azul.jpeg", nombre: "Nike SB Azul", precio: "$70.000", talle: "41" },
     { imagen: "nike-travis-scott.jpeg", nombre: "Nike Travis Scott", precio: "$65.000", talle: "40" },
     { imagen: "puma-suede-xl.jpeg", nombre: "Puma Suede XL", precio: "$65.000", talle: "41" },
     { imagen: "vans-hylane-cuerina.jpeg", nombre: "Vans Hylane Cuerina", precio: "$30.000", talle: "39" },
